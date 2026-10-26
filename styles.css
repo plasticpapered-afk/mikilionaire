@@ -81,7 +81,7 @@ h1 { font-size: clamp(46px, 9vw, 96px); font-weight: 700; line-height: .98; lett
 
 .team-grid { display: grid; grid-template-columns: 280px 1fr; gap: 40px; align-items: center; }
 @media (max-width: 800px) { .team-grid { grid-template-columns: 1fr; text-align: center; } .team-photo { margin: 0 auto; } .team-text .eyebrow, .team-text h2 { text-align: center; } }
-.team-photo img { width: 100%; border-radius: 50%; border: 2px solid var(--blue-soft); outline: 1px solid var(--line); display: block; }
+.team-photo img { width: 100%; max-width: 420px; border-radius: 16px; display: block; }
 .team-role { font-size: 12px; font-weight: 800; letter-spacing: 2.4px; color: var(--blue); text-transform: uppercase; margin: 6px 0 14px; }
 
 .cta-band { text-align: center; }
